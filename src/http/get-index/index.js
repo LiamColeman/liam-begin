@@ -7,29 +7,35 @@ exports.handler = async function Index () {
     /**
      * Basic bio
      */
-    fullname: 'Your Name', // ←  Start by adding your name!
+    fullname: 'Liam Coleman', // ←  Start by adding your name!
     title: 'My personal site!',
-    occupation: 'Artist & Photographer',
-    location: 'West Glacier, MT',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
+    occupation: 'Software Engineer',
+    location: 'Philadelphia, PA',
+    bio: 'I am a highschool student from PA. I am currently working to become a software engineer. I love anything that has to with technology.',
 
     /**
      * Contact / social
      * - Comment out any item below to remove it from your page
      */
-    email: 'your@email.com',
-    twitter: 'yourTwitter',
-    linkedin: 'your-linkedin-name',
-    instagram: 'yourInsta',
-    facebook: 'your-facebook-name',
+    email: 'liam@megster.com',
+    twitter: '_dogdroid',
+    // linkedin: 'your-linkedin-name',
+    instagram: 'dogdroid',
+    // facebook: 'your-facebook-name',
 
     /**
      * Layout
      */
-    photographer: 'Ivana Cajina',
-    service: 'Unsplash',
-    credit: 'https://unsplash.com/@von_co',
-    image: staticAssetsHelper('background.jpg')
+    // photographer: 'Ivana Cajina',
+    // service: 'Unsplash',
+    // credit: 'https://unsplash.com/@von_co',
+    // image: staticAssetsHelper('background.jpg')
+
+    photographer: 'Liam Coleman',
+    service: 'Twitter',
+    credit: 'https://twitter.com/_dogdroid',
+    image: staticAssetsHelper('liam.jpg')
+
     // or link to an external image URL such as ↓
     // image: 'https://images.unsplash.com/photo-1506535772317-9fdb71c959c6'
   })
