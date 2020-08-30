@@ -281,6 +281,10 @@ body {
   .overflow-auto-large {
     overflow: auto;
   }
+  ::selection {
+    color: white;
+    background: green;
+  }
 }
 </style>
 `
