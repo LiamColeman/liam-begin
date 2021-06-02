@@ -11,7 +11,7 @@ exports.handler = async function Index () {
     title: 'My personal site!',
     occupation: 'Software Engineer',
     location: 'Philadelphia, PA',
-    bio: 'I am a highschool student from PA. I am currently working to become a software engineer. I love anything that has to with technology.',
+    bio: 'I am a college student. I am originally from PA. I am currently working to become a computer scientist. I love anything that has to with technology.',
 
     /**
      * Contact / social
